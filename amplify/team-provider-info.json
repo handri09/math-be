@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mathbe-dev-102520-authRole",
+      "UnauthRoleArn": "arn:aws:iam::129153689445:role/amplify-mathbe-dev-102520-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::129153689445:role/amplify-mathbe-dev-102520-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-mathbe-dev-102520-deployment",
+      "UnauthRoleName": "amplify-mathbe-dev-102520-unauthRole",
+      "StackName": "amplify-mathbe-dev-102520",
+      "StackId": "arn:aws:cloudformation:us-west-2:129153689445:stack/amplify-mathbe-dev-102520/bf3d1880-ac0c-11ec-8523-0a5bb7445afd",
+      "AmplifyAppId": "d3edofns7h27z6"
+    },
+    "categories": {
+      "auth": {
+        "mathbe45bc25b0": {}
+      }
+    }
+  }
+}
