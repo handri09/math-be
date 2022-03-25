@@ -8,7 +8,7 @@ Amplify.configure(awsExports);
 
 export default function App() {
   return (
-    <div className="flex h-screen w-screen bg-gradient-to-b from-indigo-100 via-purple-100 to-pink-200">
+    <div className="flex justify-center items-center h-screen w-screen bg-gradient-to-b from-indigo-100 via-purple-100 to-pink-200">
       <Authenticator className="shadow-lg">
         {({ signOut, user }) => (
           <main>
