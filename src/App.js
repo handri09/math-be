@@ -12,7 +12,7 @@ export default function App() {
       {({ signOut, user }) => (
         <main>
           <h1 className="">Hello {user.username}</h1>
-          <button className="bg-sky-500 py-1 px-2 border-2 border-sky-500 shadow-sm rounded-md m-3 text-white hover:bg-sky-400" onClick={signOut}>Sign out</button>
+          <button className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white rounded py-3 px-4 m-5" onClick={signOut}>Sign out</button>
         </main>
       )}
     </Authenticator>
